@@ -1,4 +1,4 @@
-import styles from "stateIndex.module.css"
+
 
 interface Props {
     index: number;
@@ -13,7 +13,7 @@ export default function StateIndex({index, setIndex}: Props) {
     }
 
     return (
-        <div className={styles.StateIndex}>
+        <div>
             <h4>{index}</h4>
             <button onClick={handleClick}>Click</button>
         </div>
