@@ -40,8 +40,6 @@ function App() {
           <MyName name={names[0].name}>
               <MyAge age={45} />
           </MyName>
-          <MyName name={names[1].name}/>
-          <MyName name={names[2].name}/>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
